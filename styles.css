@@ -158,7 +158,7 @@
 }
 
 img {
-  min-width: 90%;
+  min-width: 100%;
   height: 30vh;
 }
 
@@ -167,7 +167,7 @@ img {
   flex-direction: column;
   box-shadow: 2px 2px 2px 4px black;
   padding: 10px;
-  /* width: 60%; */
+  width: max-content;
 }
 
 /* media query : tablette */
