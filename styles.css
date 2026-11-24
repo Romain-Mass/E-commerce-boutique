@@ -3,7 +3,7 @@
 }
 .menu-button {
   position: absolute;
-  top: 8px;
+  top: 4px;
   right: 17px;
   z-index: 2;
   display: flex;
@@ -185,3 +185,5 @@ img {
   flex-direction: column;
   box-shadow: 2px 2px 2px 4px black;
 }
+
+/* media query : tablette */
