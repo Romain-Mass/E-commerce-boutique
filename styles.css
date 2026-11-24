@@ -169,7 +169,6 @@ img {
   display: flex;
   flex-direction: column;
   box-shadow: 2px 2px 2px 4px black;
-  height: 30vh;
   /* width: 60%; */
 }
 
