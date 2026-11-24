@@ -1,13 +1,31 @@
 * {
   margin: 0;
 }
+
+body {
+  min-height: 100vh;
+}
+
 /* header | main */
+
+/* ===== header ===== */
+
+header {
+  height: 10vh;
+}
+
+/* ===== main ===== */
+
+main {
+  height: 90vh;
+}
 
 #list-shopping {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 10px;
+  padding: 10px;
 }
 
 /* menu */
@@ -159,6 +177,8 @@ img {
   display: flex;
   flex-direction: column;
   box-shadow: 2px 2px 2px 4px black;
+  height: 30vh;
+  /* width: 60%; */
 }
 
 /* media query : tablette */
