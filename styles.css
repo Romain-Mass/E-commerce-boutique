@@ -18,6 +18,7 @@ header {
 
 main {
   height: 90vh;
+  padding: 20px;
 }
 
 #list-shopping {
