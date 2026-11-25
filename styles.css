@@ -1,3 +1,11 @@
+:root {
+  --vert-fond: #eaf4ec;
+  --vert-bordure: #b9d8c0;
+  --vert-texte: #1f3a2a;
+  --vert-bouton: #2f7d4f;
+  --vert-bouton-hover: #256440;
+}
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -9,7 +17,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-	justify-content: center;
   gap: 30px;
   padding: 10px;
 }
@@ -190,11 +197,31 @@ img {
 .card {
   display: flex;
   flex-direction: column;
-  box-shadow: 2px 2px 2px 4px black;
+  box-shadow: 2px 0.8px 2px 1px var(--vert-bordure);
   padding: 10px;
+  background-color: var(--vert-fond);
+  /* color: var(--vert-texte); */
   width: 90%;
   gap: 15px;
   height: max-content;
+}
+
+.cart {
+  background-color: var(--vert-bouton);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  width: 75%;
+  align-self: center;
+}
+
+.cart:hover {
+  background: var(--vert-bouton-hover);
+}
+
+.cart:focus-visible {
+  outline: 2px var(--vert-texte);
+  outline-offset: 2px;
 }
 
 /* media query : tablette */
@@ -243,6 +270,6 @@ img {
 
   .card {
     width: 31%;
-    height: 110vh;
+    height: 115vh;
   }
 }
