@@ -39,22 +39,33 @@ header h2 {
 
 .subscribe {
   margin-right: 4px;
+  background-color: var(--vert-bouton);
+  color: white;
+  border: none;
+  padding: 7px 15px;
+  margin-right: 15px;
+  border-radius: 7px;
 }
 
 .log-in {
   width: max-content;
+  background-color: var(--vert-bouton);
+  color: white;
+  border: none;
+  padding: 7px 15px;
+	border-radius: 7px;
 }
 
 /* other 01 */
 
 .title {
   font-weight: 800;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
 }
 
 h2 {
   color: var(--vert-texte);
-	font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 p {
@@ -62,7 +73,7 @@ p {
 }
 
 h3 {
-	font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 /* ===== main ===== */
@@ -234,7 +245,7 @@ img {
   padding: 10px 20px;
   width: 75%;
   align-self: center;
-	font-size: 0.85rem;
+  font-size: 0.85rem;
 }
 
 .cart:hover {
@@ -263,7 +274,7 @@ img {
   .menu {
     position: static;
     width: auto;
-    margin-left: auto;
+    margin-right: 1vw;
     padding: 0;
     background: none;
     border: none;
@@ -280,6 +291,18 @@ img {
     width: 45%;
     height: 100vh;
   }
+
+  nav > a {
+    margin-right: -20px;
+  }
+
+  .last {
+    margin-right: 2px;
+  }
+
+  header {
+    justify-content: space-evenly;
+  }
 }
 
 /* media query : desktop */
@@ -293,5 +316,13 @@ img {
   .card {
     width: 31%;
     height: 115vh;
+  }
+
+  .menu {
+    margin-left: 47vw;
+  }
+
+  header {
+    justify-content: space-around;
   }
 }
