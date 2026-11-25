@@ -18,11 +18,14 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 5px;
 }
 
 header h2 {
   margin-left: 15px;
+}
+
+.log-in {
+  width: max-content;
 }
 
 /* ===== main ===== */
@@ -83,11 +86,9 @@ main {
     opacity 200ms ease;
   position: absolute;
   left: 0;
-
   display: block;
   width: 20px;
   height: 2px;
-
   background: currentColor;
   border-radius: 999px;
   transition:
@@ -189,13 +190,13 @@ img {
 
 /* media query : tablette */
 
-/* media query : tablette */
-
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 760px) {
   #list-shopping {
     flex-direction: row;
     flex-wrap: wrap;
   }
+
+  /* menu */
 
   #menuButton {
     display: none;
@@ -209,14 +210,15 @@ img {
     background: none;
     border: none;
     box-shadow: none;
-
     visibility: visible;
     opacity: 1;
     transform: none;
-
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
+  }
+
+  .card {
+    width: 45%;
   }
 }
