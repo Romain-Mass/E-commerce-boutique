@@ -4,6 +4,12 @@
 
 /* header | main */
 
+#list-shopping {
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+}
+
 /* ===== header ===== */
 
 header {
@@ -15,21 +21,13 @@ header {
 }
 
 header h2 {
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
 /* ===== main ===== */
 
 main {
   height: 90vh;
-}
-
-#list-shopping {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 30px;
-  padding: 10px;
 }
 
 /* menu */
@@ -172,6 +170,8 @@ main {
   outline-offset: -2px;
 }
 
+/* carte */
+
 img {
   max-width: 100%;
 }
@@ -185,3 +185,21 @@ img {
 }
 
 /* media query : tablette */
+
+@media screen and (min-with: 600px) {
+  #list-shopping {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .menu-button.is-open {
+    visibility: none;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+}
