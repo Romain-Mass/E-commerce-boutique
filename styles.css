@@ -43,7 +43,7 @@ header h2 {
   color: white;
   border: none;
   padding: 7px 15px;
-  margin-right: 15px;
+  margin-bottom: 5px;
   border-radius: 7px;
 }
 
@@ -53,14 +53,15 @@ header h2 {
   color: white;
   border: none;
   padding: 7px 15px;
-	border-radius: 7px;
+  border-radius: 7px;
 }
 
 /* other 01 */
 
 .title {
   font-weight: 800;
-  font-size: 1.3rem;
+  font-size: 1.7rem;
+  margin-left: 5px;
 }
 
 h2 {
@@ -296,12 +297,17 @@ img {
     margin-right: -20px;
   }
 
+  .subscribe {
+    margin-right: 15px;
+    margin-block: auto;
+  }
+
   .last {
     margin-right: 2px;
   }
 
   header {
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
 }
 
@@ -319,7 +325,7 @@ img {
   }
 
   .menu {
-    margin-left: 47vw;
+    margin-left: 42vw;
   }
 
   header {
