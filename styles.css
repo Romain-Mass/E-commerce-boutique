@@ -31,7 +31,7 @@ main {
 
 #menuButton {
   position: absolute;
-  top: 4px;
+  top: 5px;
   right: 20px;
   z-index: 2;
   display: flex;
