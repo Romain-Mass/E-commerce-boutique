@@ -189,14 +189,14 @@ img {
 
 /* media query : tablette */
 
-@media screen and (min-with: 500px) {
+@media screen and (min-width: 500px) {
   #list-shopping {
     flex-direction: row;
     flex-wrap: wrap;
   }
 
-  .menu-button.is-open {
-    visibility: none;
+  .menu-button {
+    display: none;
   }
 
   .menu {
