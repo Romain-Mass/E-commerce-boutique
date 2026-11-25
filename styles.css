@@ -189,7 +189,9 @@ img {
 
 /* media query : tablette */
 
-@media screen and (min-width: 500px) {
+/* media query : tablette */
+
+@media screen and (min-width: 768px) {
   #list-shopping {
     flex-direction: row;
     flex-wrap: wrap;
@@ -200,6 +202,18 @@ img {
   }
 
   .menu {
+    position: static;
+    width: auto;
+    margin-left: auto;
+    padding: 0;
+    background: none;
+    border: none;
+    box-shadow: none;
+
+    visibility: visible;
+    opacity: 1;
+    transform: none;
+
     display: flex;
     flex-direction: row;
     align-items: center;
