@@ -8,7 +8,9 @@
 
 header {
   height: 10vh;
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 /* ===== main ===== */
