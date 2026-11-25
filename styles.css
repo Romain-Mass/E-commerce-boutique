@@ -24,6 +24,10 @@ header h2 {
   margin-left: 15px;
 }
 
+.subscribe {
+  margin-right: 4px;
+}
+
 .log-in {
   width: max-content;
 }
@@ -220,5 +224,18 @@ img {
 
   .card {
     width: 45%;
+  }
+}
+
+/* media query : desktop */
+
+@media screen and (min-width: 1126px) {
+  #list-shopping {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 30%;
   }
 }
