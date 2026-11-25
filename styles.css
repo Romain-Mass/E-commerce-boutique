@@ -6,7 +6,15 @@
 
 /* ===== header ===== */
 
+header {
+  height: 10vh;
+}
+
 /* ===== main ===== */
+
+main {
+  height: 90vh;
+}
 
 #list-shopping {
   display: flex;
