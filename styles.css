@@ -197,7 +197,7 @@ img {
     flex-wrap: wrap;
   }
 
-  .menu-button {
+  #menuButton {
     display: none;
   }
 
